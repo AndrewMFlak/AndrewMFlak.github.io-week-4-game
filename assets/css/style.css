@@ -1,49 +1,51 @@
 
-
 body {
+    background-image: url("../assets/images/spaceBackground.jpeg");
+    background-repeat: repeat;
     background-color: black;
-    align-content: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
 .container {
+    
     display: grid;
-    grid-template-columns: 10px 40px 50px auto 50px 40px 10px;
-    grid-template-rows: 50px 100px 200px 70px 140px 50px;
+    grid-template-columns: auto 500px auto;
+    grid-template-rows: 100px 200px 100px 70px 200px Auto;
 }
-h1 {
-    text-align: center;
-    font-weight: 60px;
+.h1 {
+    justify-self: center;
+    font-size: 200px;
     color: white;
-    grid-column: 4/ span 1;
+    grid-row: 2 / 3;
+    grid-column: 2/ 3;
 }
-h2 {
-    text-align: center;
-    font-weight: 34px;
+.h2 {
+    justify-self: center;
+    font-size: 70px;
     color: white;
-    grid-column: 4/ span 1;
-}
-.title {
-    color: white;
-    text-align: center;
-    grid-column: 4/ span 1;
     grid-row: 3 / 4;
+    grid-column: 2 / 3;
 }
-.coverText {
-
+.h3 {
+    justify-self: center;
+    font-size: 50px;
     color: white;
     text-align: center;
-    grid-column: 4/ span 1;
     grid-row: 4 / 5;
+    grid-column: 2 / 3;
 }
 .character {
     background-color: crimson;
     color: black;
-    grid-column: auto;
-    grid-row: 5 / 6;
-    align-content: center;
+    grid-column: 2;
+    grid-row: 5;
+    justify-self: center;
 }
 .charTile {
     border: solid 3px gray;
     margin: 3px;
+}
+.charDes {
+
+}
+.title {
+    color: white;
 }
