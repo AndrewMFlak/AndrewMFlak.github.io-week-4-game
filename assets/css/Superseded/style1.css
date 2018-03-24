@@ -1,0 +1,53 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 300px Auto 300px;
+    grid-template-rows: 150px Auto 50px 100px 10px;
+}
+.userChar {
+    background-color: crimson;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+.neutralChar {
+    background-color: silver;
+    grid-column: 2 / 1;
+    grid-row: 1 / 1;
+    
+}
+.compChar {
+    background-color: cadetblue;
+    grid-column: 3 / 1;
+    grid-row: 1 / 1;
+}
+.userImg {
+    background-color: silver;
+    grid-column: 1 / 1;
+    grid-row: 2 / 1;
+    
+}
+.neutralImg {
+    background-color: silver; 
+    grid-column: 2 / 1;
+    grid-row: 2 / 1;
+}
+.compImg {
+    background-color: silver;
+    grid-column: 3 / 1;
+    grid-row: 2 / 1;
+}
+.userFoot {
+    background-color: silver;
+    grid-column: 1 / 1;
+    grid-row: 3 / 1;
+}
+/* .neutralFoot {
+    background-color: silver;
+    grid-column: 2 / 1;
+    grid-row: 3 / 1;
+}
+.compFoot {
+    background-color: silver;
+    grid-column: 3 / 1;
+    grid-row: 3 / 1;
+} */

@@ -1,0 +1,23 @@
+.userChar {
+    width: 25%;
+    height: 20%;
+    background-color: gray;
+}
+.neutralChar {
+    width: 50%;
+    height: 20%;
+    background-color: yellow;
+}
+.compChar {
+    width: 25%;
+    height: 20%;
+    background-color: crimson;
+}
+.userImg {
+    width: 25%;
+    height: 40%;
+    background-color: gray;
+}
+.neutralImg {
+    
+}
