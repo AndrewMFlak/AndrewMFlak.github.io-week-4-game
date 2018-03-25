@@ -12,7 +12,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="assets/javascript/game.js"></script>
+    <script src="assets/javascript/crystalCollector.js"></script>
 </head>
 
 <body>
@@ -21,34 +21,50 @@
             <h1>Crystals Collector!</h1>
             <p></p>
             <p>
-                <a class="btn btn-primary btn-lg" href="Index3.html" target="_blank" role="button">Instructions</a>
+                <a class="btn btn-primary btn-lg" href="Index3.html" target="_blank" align="center" role="button">Instructions</a>
             </p>
         </div>
-        <row>
-            <div class="numberToMatch">
-                <h2>
-                    Number to Match
-                </h2>
-                <span id="randomNumber">
-                    0
-                </span>
-                <br><br>
-            </div>
-            <div class="gems">
-                <img src="assets/images/blueGem.png" class="gemImage" alt="one" height="120px" width="120px">
-                <img src="assets/images/redGem.jpeg" class="gemImage" alt="two" height= "120px" width="120px">
-                <img src="assets/images/greenGem.jpg" class="gemImage" alt="three" height="120px" width="120px">
-                <img src="assets/images/purpleGem.jpeg" class="gemImage" alt="four" height="120px" width="120px">
-            </div>
-            <div class = "Score">
-                <h1>
-                    Your current score is...
-                </h1>
-                <span id="yourScore">
-                    0
-                </span>
-            </div>
-        </row>
+        <div>
+            <row class="parentRow">
+                <div class="numberToMatch">
+                    <h2>
+                        Number to Match...
+                    </h2>
+                    <span id="randomNumber">
+                    </span>
+
+                </div>
+                <div class="Score">
+                    <h1>
+                        Your current score is...
+                    </h1>
+                    <span id="yourScore">
+                    </span>
+                </div>
+            </row>
+        </div>
+        <div>
+            <row>
+                <div class="gems">
+                    <img src="assets/images/blueGem.png" class="gemImage" alt id="one" height="120px" width="120px">
+                    <img src="assets/images/redGem.jpeg" class="gemImage" alt id="two" height="120px" width="120px">
+                    <img src="assets/images/greenGem.jpg" class="gemImage" alt id="three" height="120px" width="120px">
+                    <img src="assets/images/purpleGem.jpeg" class="gemImage" alt id="four" height="120px" width="120px">
+                </div>
+            </row>
+        </div>
+
+        <div class="record">
+            <h2>
+                Wins:
+                <span id="wins"></span>
+            </h2>
+            <h2>
+                Losses:
+                <span id="losses"></span>
+            </h2>
+            </p>
+        </div>
     </div>
 
 </body>
