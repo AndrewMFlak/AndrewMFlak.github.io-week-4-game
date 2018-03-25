@@ -28,7 +28,7 @@ $(document).ready(function () {
         three = Math.floor(Math.random() * 11 + 1);
         four = Math.floor(Math.random() * 11 + 1);
         yourScore = 0;
-        $('finalScore').text(youScore);
+        $('finalScore').text(yourScore);
     }
     function fYes() {
         alert("You Won!!!!");
@@ -41,7 +41,7 @@ $(document).ready(function () {
     function fNo() {
         alert("You Lose!!!!");
         losses++;
-        $("#losses").text(wins);
+        $("#losses").text(losses);
         reset();
     }
 
